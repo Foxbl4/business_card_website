@@ -3,11 +3,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-       function secret(){
-                 var myAudio = new Audio;
-                 myAudio.src = "images/Hypa.mp3";
-                 myAudio.play();
-               }
 
 (function($) {
 
@@ -208,6 +203,11 @@
 
 				};
 
+		   function secret(){
+                 var myAudio = new Audio;
+                 myAudio.src = "images/Hypa.mp3";
+                 myAudio.play();
+               }
 				$main._hide = function(addState) {
 
 					var $article = $main_articles.filter('.active');
