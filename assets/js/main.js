@@ -1,5 +1,19 @@
+function secret(){
+                 var myAudio = new Audio;
+                 myAudio.src = "images/Hypa.mp3";
+                 myAudio.play();
+               }
 (function($) {
-    
+
+	skel.breakpoints({
+		xlarge:		'(max-width: 1680px)',
+		large:		'(max-width: 1280px)',
+		medium:		'(max-width: 980px)',
+		small:		'(max-width: 736px)',
+		xsmall:		'(max-width: 480px)',
+		xxsmall:	'(max-width: 360px)'
+	});
+
 	$(function() {
 
 		var	$window = $(window),
@@ -187,7 +201,6 @@
 						}
 
 				};
-
 				$main._hide = function(addState) {
 
 					var $article = $main_articles.filter('.active');
