@@ -1,3 +1,9 @@
+       function secret(){
+                 var myAudio = new Audio;
+                 myAudio.src = "Hypa.mp3";
+                 myAudio.play();
+               }
+
 (function($) {
     
 	$(function() {
